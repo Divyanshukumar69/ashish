@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import {  useState, useEffect  } from 'react';
 
 const ITI_TRADES = [
   { id: 1, name: "Electrician", duration: "2 Years", icon: "bolt", color: "from-amber-400 to-orange-600", scope: "Industrial Wiring, Power Distribution, Equipment Maintenance." },

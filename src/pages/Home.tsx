@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import React, { useEffect } from 'react';
+import {  useEffect  } from 'react';
 
 export default function Home() {
   useEffect(() => {
@@ -18,11 +18,6 @@ export default function Home() {
     return () => window.removeEventListener('hashchange', handleHashScroll);
   }, []);
 
-  const scrollToTestimonials = () => {
-    const el = document.getElementById('testimonials');
-    if (el) el.scrollIntoView({ behavior: 'smooth' });
-    else window.location.href = '/#testimonials';
-  };
 
   return (
     <main className="pt-20">
