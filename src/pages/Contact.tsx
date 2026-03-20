@@ -102,7 +102,7 @@ export default function Contact() {
                   const data = Object.fromEntries(formData.entries());
 
                   try {
-                    const response = await fetch("https://formsubmit.co/ajax/divyanshucmd@gmail.com", {
+                    const response = await fetch("https://formsubmit.co/ajax/42cf3ea3b6bc1efe4538952be537f988", {
                         method: "POST",
                         headers: { 
                             'Content-Type': 'application/json',
@@ -173,7 +173,7 @@ export default function Contact() {
 
                   <div className="flex items-center gap-3 text-on-surface-variant pt-4">
                     <span className="material-symbols-outlined text-secondary" style={{ fontVariationSettings: "'FILL' 1" }}>verified_user</span>
-                    <p className="text-sm">Your information is sent directly to divyanshucmd@gmail.com.</p>
+                    <p className="text-sm">Your information is sent via direct institutional transmission.</p>
                   </div>
                 </form>
               </>

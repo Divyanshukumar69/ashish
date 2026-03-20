@@ -32,7 +32,7 @@ export default function ConsultationPopup() {
     setBookingTime(data.date + " at " + data.time);
 
     try {
-      const response = await fetch("https://formsubmit.co/ajax/divyanshucmd@gmail.com", {
+      const response = await fetch("https://formsubmit.co/ajax/42cf3ea3b6bc1efe4538952be537f988", {
         method: "POST",
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({

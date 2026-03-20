@@ -44,7 +44,7 @@ export default function AIReceptionist() {
       .join('\n\n');
 
     try {
-      await fetch("https://formsubmit.co/ajax/divyanshucmd@gmail.com", {
+      await fetch("https://formsubmit.co/ajax/42cf3ea3b6bc1efe4538952be537f988", {
         method: "POST",
         headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
         body: JSON.stringify({
