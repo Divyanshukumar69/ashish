@@ -1,7 +1,7 @@
 import {  useState, useRef, useEffect  } from 'react';
 
-// ⚠️ API KEY REMOVED FOR GITHUB PUSH ⚠️
-const GROK_API_KEY = "REPLACED_FOR_SECURITY_REASONS";
+// 🛡️ Managed via Vercel Environment Variables
+const GROK_API_KEY = import.meta.env.VITE_GROQ_API_KEY || "";
 const GROK_API_URL = "https://api.groq.com/openai/v1/chat/completions";
 
 const SYSTEM_PROMPT = `You are a friendly and professional virtual assistant for Ashish Kumar Admissions that helps users begin their journey with our courses/services (B.Ed, ITI, Vocational Programs). Your goal is to engage the user, understand their needs, and guide them to start the process smoothly.
